@@ -1,0 +1,126 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header{
+   display: flex;
+    height: 84px;
+    align-items: center;
+
+}
+.hcontainer{
+    width: 1151px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    font-weight:400;
+    font-size:12px;
+    
+    color:#2A2D46;
+    align-items: center;
+
+
+}
+
+
+
+
+.phone{
+    font-size:13px;
+    color: #2A2D46;
+    font-weight:700;
+    margin-left:61px;
+
+}
+
+.button{
+    margin-left:34px;
+    color: #EB2D66;
+    font-weight:700;
+    font-size:11px;
+    margin-right: 81px;
+    
+
+}
+
+.utilogo{
+    display: flex;
+    width: 22px;
+    height:22.91px;
+    align-items: center;
+   
+}
+
+.log{
+    margin-right:40px;
+    font-size:12px;
+    color: #3145FF;
+    font-weight:700;
+    align-items: center;
+
+}
+.logo{
+    margin-right:40px;
+    font-size:12px;
+    color: #3145FF;
+    font-weight:700;
+
+}
+
+.logot{
+    
+    font-size:12px;
+    color: #2A2D46;
+    font-weight:300;
+
+}
+
+.logogo{
+    margin-right:10px;
+}
+
+.nav-link{
+    color:#2A2D46;
+    text-decoration:none;
+    margin-right:32.5px;
+
+}
+
+.nav-link:last-child{
+    margin-right:0;
+    align-items: center;
+    
+}
+
+
+.cash{
+    font-size:12px;
+    color: #2A2D46;
+    font-weight:bold;
+    margin-left:15px;
+    display: flex;
+}
+
+.triangle{
+    margin-left:11px;
+}
+
+.callbutton{
+    border: 1px solid #EB2D66;
+    padding: 6px 12px;
+    margin-right: 69px;
+    margin-left: 34px;
+    font-size:11px;
+    color: #EB2D66;
+    font-weight:700;
+    text-decoration:none;
+
+}
