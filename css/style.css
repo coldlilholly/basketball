@@ -21,11 +21,13 @@ body{
 }
 
 .nav{
+    
     font-weight:400;
     font-size:12px;
     
     color:#2A2D46;
     align-items: center;
+    vertical-align:baseline;
 
 
 }
@@ -91,12 +93,27 @@ body{
     color:#2A2D46;
     text-decoration:none;
     margin-right:32.5px;
+    
+
+}
+
+.nav-lin{
+    color:#2A2D46;
+    margin-right:32.5px;
+    background-position: center;
+
+}
+.nav-link:hover{
+    color: #3145FF;
+
 
 }
 
 .nav-link:last-child{
     margin-right:0;
     align-items: center;
+    
+   
     
 }
 
@@ -124,6 +141,10 @@ body{
     text-decoration:none;
 
 }
+
+.callbutton:hover{
+    opacity:0.8;
+}
 /*main-block*/
 
 .main{
@@ -137,7 +158,7 @@ body{
     justify-content: space-between;
     padding-top:21px;
     padding-bottom:96px;
-
+    
 
 }
 
@@ -153,7 +174,7 @@ body{
 }
 
 .main-image{
-    margin-right:534px;
+    
     position: relative;
 
 
@@ -172,14 +193,16 @@ body{
     display:inline-block;
     padding: 20px 42px;
     background: #EB2D66;
+    box-shadow: 0px 7px 35px  3px #EE5583;
     
     font-weight:700;
     font-size:16px;
     text-decoration:none;
     color:#FFFFFF;
+}
 
-
-
+.catalog-button:hover{
+    opacity:0.8;
 }
 
 .main-content p{
@@ -193,24 +216,81 @@ body{
 .image{
     width:615px;
     height:369px;
+   
+}
+
+.blue-back{
+    background-color: rgba(49,70,255,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    pointer-events: none;
 }
 
 .jordan{
     position: absolute;
-    top: 207px;
-    left: 742px;
+    top: 38%;
+    left: -27%;
+    transform: trans1ateY(-50%);
+    width: 100%;
+    height: auto;
 
 }
 
 .image1{
-    position: absolute;
+    position: relative;
   top: 0;
   left: 0;
 }
 
-.image2{
-    position: absolute;
-  top: 0;
-  left: 0;
+.blue-back h1{
+    font-size:17px;
+    font-weight:bold;
+    color: #FFFFFF;
+
+    margin-left:353px;
+    margin-top:55px;
+
 }
+
+.blue-back h2{
+    font-size:12px;
+    font-weight:400;
+    color: #FFFFFF;
+
+    margin-left:353px;
+    
+
+}
+
+.blue-back h3{
+    font-size:12px;
+    font-weight:bold;
+    color: #FFFFFF;
+
+    margin-left:353px;
+
+
+}
+
+h1{
+    margin-bottom: -5px;
+}
+
+h2{
+    margin-bottom: -5px;
+}
+
+.sq-white{
+    margin-top:-113px;
+    margin-left:335px;
+}
+
+.slides{
+    margin-top:274px;
+    margin-left: 419px;
+}
+
 
